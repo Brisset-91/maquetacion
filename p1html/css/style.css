@@ -1,0 +1,15 @@
+*{
+    background-color: rgb(236, 170, 150);
+}
+
+main{
+    display: flex;
+}
+
+header{
+    width: 50%;
+}
+
+section{
+    width: 50%;
+}
