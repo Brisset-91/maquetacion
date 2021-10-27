@@ -7,17 +7,18 @@
 main{
     width: 80vw;
     height: 100vh;
-    display: table;
+    display:flex;
     margin: auto;
 }
 
 .card{
     width: 25%;
-    display: inline-block;
     height: 50%;
-    margin:20vh auto 0 auto;
-    text-align: center;
-    padding: 3rem;
+    display: flex;
+    padding: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    
 }
 
 .yellow{
