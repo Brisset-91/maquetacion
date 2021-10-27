@@ -9,16 +9,16 @@ main{
     height: 100vh;
     display:flex;
     margin: auto;
+    justify-content: center;
 }
 
 .card{
     width: 25%;
     height: 50%;
     display: flex;
-    padding: 2rem;
     flex-direction: column;
     justify-content: center;
-    
+    margin: 10rem 0 10rem 0
 }
 
 .yellow{
@@ -26,7 +26,6 @@ main{
     background-repeat: no-repeat;
     background-color: hsl(31, 77%, 52%);
     border-radius: .5rem 0 0 .5rem;
-
 }
 
 .green{
@@ -63,4 +62,9 @@ main{
 
 h1{
     font-size: 2.5rem;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
 }
